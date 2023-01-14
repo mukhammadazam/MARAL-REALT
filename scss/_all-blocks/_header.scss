@@ -1,1 +1,37 @@
-header {}
+@import '../mixin.scss';
+header {
+    @include BG (url(../../imges/Фон.png), no-repeat, 100%, center);
+}
+
+.nav {
+    padding-top: 46px;
+    @include flexfunksiya (row, center, space-between, wrap);
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    &__list1 {
+        display: flex;
+        align-items: center;
+        &--item1 {
+            padding-right: 50px;
+        }
+        &--item1 .tel {
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        &--item1 .text {
+            padding-left: 35px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            color: #4F70AE;
+            text-decoration: dashed;
+        }
+    }
+}

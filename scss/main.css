@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +12,49 @@
   padding: 0 25px;
   margin: 0 auto;
   width: 100%;
+}
+
+header {
+  background-image: url(../../imges/Фон.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.nav {
+  padding-top: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav__list1 {
+  display: flex;
+  align-items: center;
+}
+.nav__list1--item1 {
+  padding-right: 50px;
+}
+.nav__list1--item1 .tel {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.nav__list1--item1 .text {
+  padding-left: 35px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #4F70AE;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }/*# sourceMappingURL=main.css.map */
