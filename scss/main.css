@@ -28,12 +28,6 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  position: relative;
-  padding-bottom: 728px;
-}
-
-nav {
-  background-color: rgba(78, 138, 159, 0.2);
 }
 
 .nav {
@@ -116,24 +110,39 @@ nav {
     display: none;
   }
 }
-.hero {
-  position: absolute;
-  right: -100px;
-  top: 85px;
-}
-
-.hero-site {
-  position: absolute;
-  z-index: 10;
-}
 .hero-site__left--title {
-  position: absolute;
-  bottom: 350px;
-  right: -160px;
+  padding-top: 107px;
+  max-width: 545px;
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 60px;
   min-width: 545px;
   color: #4E4E4E;
+}
+.hero-site__left--leni {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: #4E4E4E;
+  padding-bottom: 76px;
+  display: block;
+}
+.hero-site__left--text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #4E4E4E;
+  max-width: 290px;
+  padding-bottom: 20px;
+}
+.hero-site__left--btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #756532;
 }/*# sourceMappingURL=main.css.map */
