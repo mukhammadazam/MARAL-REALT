@@ -76,4 +76,14 @@ header {
   border: 1px solid rgba(117, 101, 50, 0.1);
   border-radius: 3px;
   padding: 5px 10px;
+}
+.nav__list1--item a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #756532;
+}
+.nav__burger {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

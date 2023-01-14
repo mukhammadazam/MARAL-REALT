@@ -44,5 +44,15 @@ header {
             border-radius: 3px;
             padding: 5px 10px;
         }
+        &--item a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            color: #756532;
+        }
+    }
+    &__burger {
+        display: none;
     }
 }
