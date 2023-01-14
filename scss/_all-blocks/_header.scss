@@ -118,6 +118,18 @@ header {
             font-size: 15px;
             line-height: 30px;
             color: #756532;
+            border: none;
+            background: url(.jpg), linear-gradient(180deg, #F2E0A9 0%, #E8CD80 100%);
+            background-blend-mode: soft-light, normal;
+            box-shadow: inset 0px 10px 10px rgba(255, 255, 255, 0.25);
+            border-radius: 5px;
+            padding: 10px 45px;
+            margin-bottom: 50px;
         }
+    }
+    &__right {
+        position: absolute;
+        top: 78px;
+        right: 100px;
     }
 }
