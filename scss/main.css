@@ -24,11 +24,16 @@ body {
 }
 
 header {
-  background-image: url(../../imges/Фон.png);
+  background-image: url(../../imges/Фон1.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   position: relative;
+  padding-bottom: 728px;
+}
+
+nav {
+  background-color: rgba(111, 145, 157, 0.2);
 }
 
 .nav {
@@ -93,6 +98,7 @@ header {
 @media screen and (max-width: 576px) {
   .nav {
     padding-top: 35px;
+    padding-bottom: 0;
   }
   .nav__list1--item1 {
     display: none;
@@ -113,4 +119,17 @@ header {
 .hero {
   position: absolute;
   right: -100px;
+}
+
+.hero-site {
+  position: absolute;
+  z-index: 10;
+}
+.hero-site__left--title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  min-width: 545px;
+  color: #4E4E4E;
 }/*# sourceMappingURL=main.css.map */
