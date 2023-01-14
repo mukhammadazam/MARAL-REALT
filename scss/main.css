@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+body {
+  font-family: "Forum";
+}
+
 header {
   background-image: url(../../imges/Фон.png);
   background-repeat: no-repeat;
@@ -51,9 +55,10 @@ header {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
+  color: #4E4E4E;
 }
 .nav__list1--item1 .text {
-  padding-left: 35px;
+  padding-left: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -61,4 +66,14 @@ header {
   color: #4F70AE;
   -webkit-text-decoration: dashed;
           text-decoration: dashed;
+}
+.nav__list1--item .telegram {
+  padding-left: 15px;
+  padding-right: 40px;
+}
+.nav__list1--item .rus {
+  margin-right: 23px;
+  border: 1px solid rgba(117, 101, 50, 0.1);
+  border-radius: 3px;
+  padding: 5px 10px;
 }/*# sourceMappingURL=main.css.map */

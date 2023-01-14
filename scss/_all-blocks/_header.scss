@@ -23,15 +23,26 @@ header {
             font-weight: 400;
             font-size: 18px;
             line-height: 25px;
+            color: #4E4E4E;
         }
         &--item1 .text {
-            padding-left: 35px;
+            padding-left: 30px;
             font-style: normal;
             font-weight: 400;
             font-size: 15px;
             line-height: 30px;
             color: #4F70AE;
             text-decoration: dashed;
+        }
+        &--item .telegram {
+            padding-left: 15px;
+            padding-right: 40px;
+        }
+        &--item .rus {
+            margin-right: 23px;
+            border: 1px solid rgba(117, 101, 50, 0.1);
+            border-radius: 3px;
+            padding: 5px 10px;
         }
     }
 }
