@@ -86,4 +86,22 @@ header {
 }
 .nav__burger {
   display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .nav {
+    padding-top: 35px;
+  }
+  .nav__list1--item1 {
+    display: none;
+  }
+  .nav__list1--item .rus {
+    display: none;
+  }
+  .nav__list1--item .eng {
+    display: none;
+  }
+  .nav__burger {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
