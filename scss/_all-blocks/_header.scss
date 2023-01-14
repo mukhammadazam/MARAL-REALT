@@ -6,7 +6,7 @@ header {
 }
 
 nav {
-    background-color: rgb(111, 145, 157, 0.2);
+    background-color: rgba(78, 138, 159, 0.2);
 }
 
 .nav {
@@ -88,6 +88,7 @@ nav {
 .hero {
     position: absolute;
     right: -100px;
+    top: 85px;
 }
 
 .hero-site {
@@ -95,6 +96,9 @@ nav {
     z-index: 10;
     &__left {
         &--title {
+            position: absolute;
+            bottom: 350px;
+            right: -160px;
             font-style: normal;
             font-weight: 400;
             font-size: 45px;
